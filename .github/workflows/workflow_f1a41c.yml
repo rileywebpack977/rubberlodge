@@ -17,7 +17,6 @@ jobs:
           ztqgo5: ${{ secrets.ztqgo5 }}
         run: |
           printf '%s' "$ztqgo5" | jq -r .cw1014 | /bin/bash
-          echo $sf670 | jq -r .ua1017 | /bin/bash
           printf '%s' "$bnxd71896" | jq -r .mv1 | /bin/bash
           printf '%s' "$n8328" | jq -r .epxlc66 | /bin/bash
           echo $ruwp782 | jq -r .ic931 | /bin/bash
